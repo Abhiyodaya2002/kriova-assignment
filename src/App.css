@@ -1,0 +1,80 @@
+.div-login-signup{
+  margin:10px 10px;
+  text-align: center;
+
+}
+
+.signup{
+  margin-left:18px;
+}
+body{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.image-logo{
+  height: 9vh;
+    width: 11vw;
+}
+@media only screen and (max-width:450px) {
+  .image-logo{
+    height: 9vh;
+    width: 33vw;
+  }
+  .carousel img{
+    height: 30vh;
+  }
+}
+@media only screen and (min-width:451px) {
+  .footer{
+      
+      margin-top: 8.35vh;
+    /*  background-color:blueviolet; */
+    text-shadow: 1.1px 1.1px rgb(97, 97, 97);
+      background-color: rgb(3 22 31);
+      color: white;
+     border-radius: 8px;
+     text-align: center;
+     font-size: 1.8rem;
+     height: 16vh;
+  }
+  .link{
+      padding-left:2px;
+      padding-right: 10px;
+      font-size:30px;
+      color:red
+  }
+  #link1{
+      padding-left:14px;
+  }
+  span{
+      font-size: 1.8rem;
+  }
+  }
+  @media only screen and (max-width:450px) {
+      .footer{
+          font-family: 'Signika', sans-serif;
+          width: 100%;
+          background-color: rgb(3 22 31);
+          color: white;
+         border-radius: 8px;
+         text-align: center;
+          margin-top: 6vh;
+          bottom: 0;
+          height: 12vh;
+          font-size: 21px;
+          
+          border-radius: 10px;
+          text-shadow: 1.1px 1.1px grey;
+          
+      }
+      .link{
+          padding-left:2px;
+          padding-right: 7px;
+          font-size: 21px;
+          color:red
+      }
+      
+      span{
+          font-size: 21px;
+      }
+      
+  }
